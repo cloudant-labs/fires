@@ -12,3 +12,6 @@ This repo is a place holder for code around managing, analyzing and visualizing 
 
 where `inpute_file.txt` is assumed to have a specific structure (see gzipped version below).
 
+## Target DB
+
+Currently the target database is hard-coded to `fires2013`.  The username and password are pickd up automatically from a `~.clou` file.  There is sample data in [https://fema.cloudant.com/fires2013](https://fema.cloudant.com/fires2013).  See Mike Miller for credentials.
